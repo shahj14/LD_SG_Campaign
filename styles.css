@@ -1,0 +1,79 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar{
+    padding: 0 5% 0 5%;
+    /*max-width: 1150px;*/
+    margin: 0 auto;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: white;
+}
+
+.navbar-brand{
+    background-color: transparent;
+}
+
+#main-page{
+    padding-top: 110px;
+}
+
+#main-pic{
+    width: 100%;
+}
+
+.page-section{
+    max-width: 1150px;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    flex-direction: column;
+}
+
+#main-caption{
+    align-items: flex-start;
+    padding: 1% 2% 0% 2%;
+}
+
+h2{
+    font-family: Arial;
+}
+
+.intro-pic{
+    width: 40%;
+}
+
+.team-holder{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.team-pic{
+    width: 28%;
+    margin: 2.3%;
+}
+
+.intro-container{
+    display: flex;
+    padding: 2%;
+
+}
+
+.candidate-info{
+    padding: 0 3% 0 3%;
+}
+
+#top-platform{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
