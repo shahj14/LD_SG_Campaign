@@ -32,6 +32,8 @@ body{
 #main-pic{
     width: 100%;
     height: auto;
+    border: solid #4d4084 8px;
+
 }
 
 .page-section{
