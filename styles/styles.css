@@ -25,11 +25,12 @@ body{
     padding-top: 110px;
     display: flex;
     justify-content: center;
+    max-width: 1300px;
+    min-width: 250px;
 }
 
 #main-pic{
     width: 100%;
-    max-width: 1300px;
     height: auto;
 }
 
