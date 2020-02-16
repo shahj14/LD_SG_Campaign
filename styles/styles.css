@@ -23,14 +23,15 @@ body{
 
 #main-page{
     padding-top: 110px;
-    display: flex;
-    justify-content: center;
+    width: 100%;
     max-width: 1300px;
+    margin: 0 auto;
     min-width: 250px;
 }
 
 #main-pic{
     width: 100%;
+    max-width: 1300px;
     height: auto;
     border: solid #4d4084 8px;
 
