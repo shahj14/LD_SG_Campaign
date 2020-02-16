@@ -23,7 +23,7 @@ body{
 
 #main-page{
     padding-top: 110px;
-    width: 100%;
+    width: 98%;
     max-width: 1300px;
     margin: 0 auto;
     min-width: 250px;
@@ -86,8 +86,21 @@ h2{
     flex-wrap: wrap;
 }
 
+#meet{
+    padding-top: 110px;
+}
 
+#platform{
+    padding-top: 110px;
+}
 
+#our-team{
+    padding-top: 110px;
+}
+
+#campus-support{
+    padding-top: 80px;
+}
 #top-platform{
     display: flex;
     justify-content: space-between;
@@ -95,7 +108,7 @@ h2{
     flex-wrap: wrap;
 }
 
-#team-holder{
+.team-holder{
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -109,10 +122,20 @@ h2{
 }
 
 .member-container{
-    width: 24%;
+    width: 19%;
     min-width: 200px;
     max-width: 280px;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.test-container{
+    width: 32%;
+    min-width: 330px;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
 }
