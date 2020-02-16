@@ -23,14 +23,17 @@ body{
 
 #main-page{
     padding-top: 110px;
+    display: flex;
+    justify-content: center;
 }
 
 #main-pic{
     width: 100%;
+    max-width: 1300px;
 }
 
 .page-section{
-    max-width: 1150px;
+    max-width: 1300px;
     display: flex;
     margin: 0 auto;
     align-items: center;
@@ -48,6 +51,15 @@ h2{
 
 .intro-pic{
     width: 40%;
+    border: solid #4d4084 12px;
+}
+
+.icon-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+    min-width: 180px;
 }
 
 .team-holder{
@@ -55,6 +67,10 @@ h2{
     flex-direction: row;
     flex-wrap: wrap;
     margin: 0 auto;
+}
+
+.plat-icon{
+    width: 100%;
 }
 
 .team-pic{
@@ -76,4 +92,5 @@ h2{
     display: flex;
     justify-content: space-between;
     width: 90%;
+    flex-wrap: wrap;
 }
