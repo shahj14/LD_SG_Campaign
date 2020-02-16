@@ -30,6 +30,7 @@ body{
 #main-pic{
     width: 100%;
     max-width: 1300px;
+    height: auto;
 }
 
 .page-section{
@@ -49,9 +50,18 @@ h2{
     font-family: Arial;
 }
 
+.cand-pic-container{
+    flex: 2;
+}
+.candidate-info{
+    padding: 0 3% 0 3%;
+    flex: 3;
+}
+
 .intro-pic{
-    width: 40%;
-    border: solid #4d4084 12px;
+    width: 100%;
+    border: solid #4d4084 8px;
+    height: auto;
 }
 
 .icon-container{
@@ -84,9 +94,7 @@ h2{
 
 }
 
-.candidate-info{
-    padding: 0 3% 0 3%;
-}
+
 
 #top-platform{
     display: flex;
