@@ -52,10 +52,12 @@ h2{
 
 .cand-pic-container{
     flex: 2;
+    min-width: 200px;
 }
 .candidate-info{
     padding: 0 3% 0 3%;
     flex: 3;
+    min-width: 300px;
 }
 
 .intro-pic{
@@ -91,7 +93,7 @@ h2{
 .intro-container{
     display: flex;
     padding: 2%;
-
+    flex-wrap: wrap;
 }
 
 
