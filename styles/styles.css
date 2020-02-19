@@ -5,6 +5,7 @@ html {
 body{
     display: flex;
     flex-direction: column;
+    font-family: sans-serif;
 }
 
 .navbar{
@@ -15,6 +16,8 @@ body{
     position: fixed;
     top: 0;
     background-color: white;
+    border-bottom: solid #4d4084 3px;
+    z-index: 10;
 }
 
 .navbar-brand{
@@ -90,8 +93,78 @@ h2{
     padding-top: 110px;
 }
 
+.accordion{
+    z-index: -999;
+}
+
 #platform{
     padding-top: 110px;
+}
+
+#plat-details{
+    width: 80%;
+    max-width: 1300px;
+    color: #4d4084;
+}
+
+#plat-details h3{
+    font-style: italic;
+    margin-top: 15px;
+}
+
+#access-plat h3{
+    color: #4f539c;
+}
+
+#access-plat .card-header{
+    background-color: #4f539c;
+}
+
+#inclusion-plat h3{
+    color: #bf5900;
+}
+
+#inclusion-plat .card-header{
+    background-color: #bf5900;
+}
+
+#sust-plat h3{
+    color: #66a84d;
+}
+
+#sust-plat .card-header{
+    background-color: #66a84d;
+}
+
+#next-plat h3{
+    color: #c23644;
+}
+
+#next-plat .card-header{
+    background-color: #c23644;
+}
+
+.mb-0{
+    color: #ffffff;
+    font-size: 1.3em;
+}
+
+.mb-0:hover{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.card-body h4{
+    color: #000;
+    font-size: 1em;
+    font-weight: bold;
+    margin-bottom:0;
+    padding-top: 8px;
+}
+
+.card-body p{
+    margin-bottom: 8px;
+    color: #000;
 }
 
 #our-team{
@@ -119,6 +192,7 @@ h2{
 
 .team-pic{
     width: 100%;
+    border-radius: 20px 20px 4px 4px;
 }
 
 .member-container{
@@ -128,11 +202,17 @@ h2{
     display: flex;
     flex-direction: column;
     align-items: center;
+    border: solid #777777 5px;
+    border-radius: 25px;
+    margin: 3px 0;
+    box-shadow: 3px 3px #8f72d6;
+
 }
 
 .member-container h4{
     font-family: sans-serif;
-    font-size: 1.3em;
+    font-size: 1.1em;
+    font-style: italic;
 }
 
 .test-container{
