@@ -7,14 +7,6 @@ html {
     src: url("../images/GT-Eesti-Pro-Text-Trial-Medium.otf") format("opentype");
 }
 
-.a:hover {
-    text-decoration: none;
-}
-
-.a {
-    text-decoration: none;
-}
-
 body{
     display: flex;
     flex-direction: column;
@@ -155,6 +147,10 @@ h5.mb-0 {
     -webkit-transition: color 0.3s;
     -moz-transition: color 0.3s;
     transition: color 0.3s;
+}
+
+.card-header-link:hover {
+    text-decoration:none;
 }
 
 h5.mb-0:after {
