@@ -103,19 +103,18 @@ h2{
 }
 
 .plat-info {
-  background-color: #e00122;
-  font-size: 20px;
-  text-transform: uppercase;
-  transition: background-color 0.6s, color 0.6s;
-  margin: 20px auto;
-  display: block;
-  width: 90%;
-  padding: 10px;
-  -webkit-appearance: none;
-  outline: 0;
-  border: 2px solid #e00122;
-  border-radius: 4px;
-  color: #fff;
+    background-color: #6b83c2;
+    text-transform: uppercase;
+    transition: background-color 0.6s, color 0.6s;
+    margin: 15px auto;
+    display: inline-block;
+    width: 20%;
+    padding: 10px;
+    -webkit-appearance: none;
+    outline: 0;
+    border: 2px solid #6b83c2;
+    border-radius: 4px;
+    color: #fff;
 }
 
 .plat-info:hover {
