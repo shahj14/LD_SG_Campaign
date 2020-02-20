@@ -139,7 +139,7 @@ h2{
     color: #fff;
 }
 
-.mb-0 {
+h5.mb-0 {
     color: #ffffff;
     font-size: 1.3em;
     padding: 3px 10px;
@@ -149,19 +149,19 @@ h2{
     transition: color 0.3s;
 }
 
-.mb-0:after {
+h5.mb-0:after {
     content: '';
     position: absolute;
     bottom: 0;
     left: 0;
     width: 0;
-    border-bottom: 3px solid #e00122;
+    border-bottom: 3px solid #fff;
     -webkit-transition: 0.4s;
     -moz-transition: 0.4s;
     transition: 0.4s;
 }
 
-.mb-0:hover:after {
+h5.mb-0:hover:after {
     width: 100%;
 }
 
@@ -276,6 +276,9 @@ h2{
     color: #6b83c2;
 }
 
+.card-header {
+    text-decoration: unset;   
+}
 #access-plat .card-header{
     background-color: #6b83c2;
 }
