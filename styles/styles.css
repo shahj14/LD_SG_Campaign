@@ -10,6 +10,11 @@ html {
 .a:hover {
     text-decoration: none;
 }
+
+.a {
+    text-decoration: none;
+}
+
 body{
     display: flex;
     flex-direction: column;
