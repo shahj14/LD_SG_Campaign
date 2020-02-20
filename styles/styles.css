@@ -121,6 +121,7 @@ h2{
   color: #4d4084;
   border: 2px solid #4d4084;
   cursor: pointer;
+  text-decoration: unset;
 }
 
 #access-plat .plat-info {
@@ -136,6 +137,32 @@ h2{
     border: 2px solid #6b83c2;
     border-radius: 4px;
     color: #fff;
+}
+
+.mb-0 {
+    color: #ffffff;
+    font-size: 1.3em;
+    padding: 3px 10px;
+    text-decoration: none;
+    -webkit-transition: color 0.3s;
+    -moz-transition: color 0.3s;
+    transition: color 0.3s;
+}
+
+.mb-0:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    border-bottom: 3px solid #e00122;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    transition: 0.4s;
+}
+
+.mb-0:hover:after {
+    width: 100%;
 }
 
 #access-plat .plat-info:hover {
@@ -275,16 +302,6 @@ h2{
 
 #next-plat .card-header{
     background-color: #c23644;
-}
-
-.mb-0{
-    color: #ffffff;
-    font-size: 1.3em;
-}
-
-.mb-0:hover{
-    font-weight: bold;
-    text-decoration: underline;
 }
 
 .card-body h4{
