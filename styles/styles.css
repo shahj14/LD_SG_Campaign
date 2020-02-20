@@ -329,6 +329,9 @@ h2{
     border-radius: 20px 20px 4px 4px;
 }
 
+.fas fa-angle-down rotate-icon {
+    float:right;    
+}
 .member-container{
     width: 19%;
     min-width: 200px;
