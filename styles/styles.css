@@ -7,7 +7,7 @@ html {
     src: url("../images/GT-Eesti-Pro-Text-Trial-Medium.otf") format("opentype");
 }
 
-.card:hover {
+.a:hover {
     text-decoration: none;
 }
 body{
