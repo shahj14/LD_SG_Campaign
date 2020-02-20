@@ -357,29 +357,35 @@ h5.mb-0:hover:after {
 
 .team-pic{
     width: 100%;
-    border-radius: 20px 20px 4px 4px;
+}
+
+.member-container:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
 .member-container{
-    width: 19%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 18%;
     min-width: 200px;
     max-width: 280px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: solid #777777 5px;
-    border-radius: 25px;
-    margin: 3px 0;
-    box-shadow: 3px 3px #8f72d6;
+    margin: 7px 0;
+}
 
+.member-container:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
 .member-container h4{
     font-family: GT, sans-serif;
     font-size: 1.1em;
     font-style: italic;
-    margin-top: 4px;
-    margin-bottom: 4px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    padding: 2px 16px;
 }
 
 .test-container{
