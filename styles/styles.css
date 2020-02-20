@@ -2,11 +2,18 @@ html {
     scroll-behavior: smooth;
 }
 
+@font-face {
+    font-family: GT;
+    src: url("../images/GT-Eesti-Pro-Text-Trial-Medium.otf") format("opentype");
+}
+
 body{
     display: flex;
     flex-direction: column;
     font-family: sans-serif;
 }
+
+
 
 .navbar{
     padding: 0 5% 0 5%;
@@ -22,6 +29,19 @@ body{
 
 .navbar-brand{
     background-color: transparent;
+}
+
+.nav-link{
+    font-family: GT, sans-serif;
+    font-size: 1.1em;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: #666;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #999;
 }
 
 #main-page{
@@ -52,7 +72,8 @@ body{
 }
 
 h2{
-    font-family: Arial;
+    font-family: GT, sans-serif;
+    font-style: italic;
 }
 
 .cand-pic-container{
@@ -77,6 +98,10 @@ h2{
     align-items: center;
     width: 20%;
     min-width: 180px;
+}
+.icon-container h3{
+    font-weight: 400;
+    font-size: 1.5em;
 }
 
 .plat-icon{
@@ -110,22 +135,23 @@ h2{
 #plat-details h3{
     font-style: italic;
     margin-top: 15px;
+    font-family: GT, sans-serif;
 }
 
 #access-plat h3{
-    color: #4f539c;
+    color: #6b83c2;
 }
 
 #access-plat .card-header{
-    background-color: #4f539c;
+    background-color: #6b83c2;
 }
 
 #inclusion-plat h3{
-    color: #bf5900;
+    color: #d97f3f;
 }
 
 #inclusion-plat .card-header{
-    background-color: #bf5900;
+    background-color: #d97f3f;
 }
 
 #sust-plat h3{
@@ -210,9 +236,11 @@ h2{
 }
 
 .member-container h4{
-    font-family: sans-serif;
+    font-family: GT, sans-serif;
     font-size: 1.1em;
     font-style: italic;
+    margin-top: 4px;
+    margin-bottom: 4px;
 }
 
 .test-container{
