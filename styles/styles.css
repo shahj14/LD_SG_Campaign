@@ -2,8 +2,6 @@ html {
     scroll-behavior: smooth;
 }
 
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,800i&display=swap');
-
 @font-face {
     font-family: GT;
     src: url("../images/GT-Eesti-Pro-Text-Trial-Medium.otf") format("opentype");
