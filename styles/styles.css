@@ -351,6 +351,10 @@ h5.mb-0:hover:after {
     width: 100%;
 }
 
+.team-pic2{
+    width: 100%;
+}
+
 .member-container{
     box-shadow: 0 4px 8px 0 rgba(77,64,132,0.4);
     transition: 0.3s;
