@@ -10,12 +10,11 @@ html {
 body{
     display: flex;
     flex-direction: column;
-    font-family: sans-serif;
+    font-family: 'Open Sans';
 }
 
 .navbar{
     padding: 0 5% 0 5%;
-    /*max-width: 1150px;*/
     margin: 0 auto;
     width: 100%;
     position: fixed;
@@ -30,8 +29,9 @@ body{
 }
 
 .nav-link{
-    font-family: GT, sans-serif;
     font-size: 1.1em;
+    font-family: 'Open Sans';
+    font-weight: 600
 }
 
 .navbar-light .navbar-nav .nav-link{
@@ -70,8 +70,9 @@ body{
 }
 
 h2{
-    font-family: GT, sans-serif;
+    font-family: 'Open Sans';
     font-style: italic;
+    font-weight: 700;
 }
 
 .cand-pic-container{
@@ -101,16 +102,22 @@ h2{
     padding: 12px;
     position: relative;
 }
-
+.h3 {
+    font-weight: 600;
+    font-style: italic;
+}
 .icon-container h3{
     font-weight: 400;
     font-size: 1.5em;
+    font-weight: 600;
+    font-style: italic;
 }
 
 #navbarNav .vote {
     background-color: #4d4084;
     transition: background-color 0.6s, color 0.6s;
-    font-family: GT, sans-serif;
+    font-family: 'Open Sans';
+    font-weight: 600;
     font-size: 0.9em;
     display: inline-block;
     padding: 10px;
@@ -282,7 +289,7 @@ h5.mb-0:hover:after {
 #plat-details h3{
     font-style: italic;
     margin-top: 15px;
-    font-family: GT, sans-serif;
+    font-family: 'Open Sans';
 }
 
 #access-plat h3{
