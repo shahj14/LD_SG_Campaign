@@ -505,3 +505,18 @@ img.team-pic2 {
     left: 0;
     z-index: 9;
 }
+
+.fab{
+    width: 50px;
+}
+
+#footer{
+    padding: 10px 0;
+    border-top: solid 2px #4d4084;
+    display: flex;
+    justify-content: center;
+}
+
+.fab{
+    margin: 10px 15px;
+}
