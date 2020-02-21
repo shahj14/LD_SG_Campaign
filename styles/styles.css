@@ -100,9 +100,12 @@ h2{
     text-align: center;
     padding: 12px;
 }
+
 .icon-container h3{
     font-weight: 400;
     font-size: 1.5em;
+    position: absolute;
+    bottom: -35px;
 }
 
 #navbarNav .vote {
@@ -485,6 +488,12 @@ h5.mb-0:hover:after {
 @media only screen and (max-width: 700px){
     .modal-content {
         width: 100%;
+    }
+}
+
+@media only screen and (max-width: 616px){
+    .icon-container {
+        margin-bottom: 40px;
     }
 }
 
