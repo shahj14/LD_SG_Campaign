@@ -393,3 +393,11 @@ h5.mb-0:hover:after {
 .team-pic:hover {
     opacity: 0;
 }
+
+.test-pic{
+    width: 100%;
+}
+
+.test-pic:hover{
+    cursor: pointer;
+}
