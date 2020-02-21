@@ -520,3 +520,8 @@ img.team-pic2 {
 .foot-link{
     margin: 0 10px;
 }
+
+#mission-statement{
+    width: 80%;
+    max-width: 1100px;
+}
