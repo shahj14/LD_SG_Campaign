@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fbb3d1b1-5abc-4e90-bcd0-5ce268658f83" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/L+D_Testimonials_12-min.jpg" afterPath="$PROJECT_DIR$/images/L+D_Testimonials_12-min.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/L+D_Testimonials_30-min.jpg" afterPath="$PROJECT_DIR$/images/L+D_Testimonials_30-min.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/L+D_Testimonials_60-min.jpg" afterPath="$PROJECT_DIR$/images/L+D_Testimonials_60-min.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -19,8 +22,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="220" column="127" lean-forward="false" selection-start-line="220" selection-start-column="127" selection-end-line="220" selection-end-column="127" />
+            <state relative-caret-position="153">
+              <caret line="726" column="44" lean-forward="true" selection-start-line="726" selection-start-column="44" selection-end-line="726" selection-end-column="44" />
               <folding>
                 <element signature="n#style#0;n#a#0;n#li#3;n#ul#0;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#h3#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -45,7 +48,7 @@
                 <element signature="n#style#0;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#h2#0;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#h2#0;n#div#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#64211#64218#1" expanded="true" />
+                <element signature="e#64223#64230#1" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -142,6 +145,11 @@
             <path>
               <item name="LD_SG" type="b2602c69:ProjectViewProjectNode" />
               <item name="LD_SG" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LD_SG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LD_SG" type="462c0819:PsiDirectoryNode" />
               <item name="styles" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -194,7 +202,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63053000" />
+    <option name="totallyTimeSpent" value="63429000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="6" />
@@ -259,7 +267,7 @@
             <element signature="n#style#0;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h2#0;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h2#0;n#div#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#64211#64218#1" expanded="true" />
+            <element signature="e#64223#64230#1" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -328,15 +336,15 @@
             <element signature="n#style#0;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h2#0;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h2#0;n#div#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#64211#64218#1" expanded="true" />
+            <element signature="e#64223#64230#1" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="220" column="127" lean-forward="false" selection-start-line="220" selection-start-column="127" selection-end-line="220" selection-end-column="127" />
+        <state relative-caret-position="153">
+          <caret line="726" column="44" lean-forward="true" selection-start-line="726" selection-start-column="44" selection-end-line="726" selection-end-column="44" />
           <folding>
             <element signature="n#style#0;n#a#0;n#li#3;n#ul#0;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h3#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -361,7 +369,7 @@
             <element signature="n#style#0;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h2#0;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h2#0;n#div#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#64211#64218#1" expanded="true" />
+            <element signature="e#64223#64230#1" expanded="true" />
           </folding>
         </state>
       </provider>
