@@ -365,10 +365,15 @@ h5.mb-0:hover:after {
     flex-direction: column;
     align-items: center;
     margin: 15px 0;
+    position: relative;
 }
 
 .member-container:hover {
   box-shadow: 0 8px 16px 0 rgba(77,64,132,0.4);
+}
+
+.member-container:hover .team-pic2 {
+    display: inline;
 }
 
 .member-container h4{
@@ -400,4 +405,12 @@ h5.mb-0:hover:after {
 
 .test-pic:hover{
     cursor: pointer;
+}
+
+img.team-pic2 {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
 }
