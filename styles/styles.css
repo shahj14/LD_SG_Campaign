@@ -514,9 +514,17 @@ img.team-pic2 {
     padding: 10px 0;
     border-top: solid 2px #4d4084;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
-.fab{
-    margin: 10px 15px;
+#footer h4{
+    font-family: sans-serif;
+    font-size: 1em;
+    font-style: italic;
+}
+
+
+.foot-link{
+    margin: 0 10px;
 }
