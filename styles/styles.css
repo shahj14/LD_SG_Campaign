@@ -75,6 +75,11 @@ h2{
     font-weight: 700;
 }
 
+h3{
+    font-family: 'Open Sans';
+    font-weight: 700;
+}
+
 .cand-pic-container{
     flex: 2;
     min-width: 200px;
