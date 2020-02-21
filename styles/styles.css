@@ -504,10 +504,13 @@ img.team-pic2 {
 
 #footer{
     padding: 10px 0;
-    border-top: solid 2px #4d4084;
+    border-top: solid 4px #2e5b91;
+    background: #1C2546;
+    color: #fff;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 40px;
 }
 
 #footer h4{
