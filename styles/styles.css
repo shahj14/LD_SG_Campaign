@@ -385,3 +385,7 @@ h5.mb-0:hover:after {
     align-items: center;
     margin-bottom: 10px;
 }
+
+.team-pic:hover {
+    opacity: 0;
+}
