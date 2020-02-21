@@ -99,6 +99,7 @@ h2{
     flex: 1 1 auto;
     text-align: center;
     padding: 12px;
+    position: relative;
 }
 
 .icon-container h3{
