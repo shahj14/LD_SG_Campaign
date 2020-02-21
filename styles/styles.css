@@ -102,11 +102,14 @@ h2{
     position: relative;
 }
 
+.icon-container .icon-text{
+    position: absolute;
+    bottom: -35px;
+}
+
 .icon-container h3{
     font-weight: 400;
     font-size: 1.5em;
-    position: absolute;
-    bottom: -35px;
 }
 
 #navbarNav .vote {
